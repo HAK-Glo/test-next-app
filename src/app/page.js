@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Script from "next/script";
 
 export default function Home() {
   return (
@@ -14,9 +15,9 @@ export default function Home() {
                     gtag('js', new Date());
                     gtag('config', 'G-1XC4SRFQ7Y');`}
       </Script>
-      <main className={styles.main}>
+      <div>
         <h2>Hello, This is nextjs app with Google analytics.</h2>
-      </main>
+      </div>
     </>
   );
 }
